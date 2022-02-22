@@ -1,30 +1,7 @@
 /*
- 
-escreval("digite o primeiro valor:")
-leia(valor01)
-escreval("digite a operação: ex: +, - , * , / ")
-leia(operacao)
-escreval("digite o segundo valor:")
-leia(valor02)
-
- se operacao = "+" então
-    resultado := valor01 + valor02
- senao
-  se operacao = "-" então
-  resultado := valor01 - valor02
- senao
- se operacao = "*" então
-    resultado := valor01 * valor02
- senao
- se operacao = "/" então
-    resultado := valor01 / valor02
-    fimse
-  fimse
- fimse
-fimse
- escreval(resultado)
-
- */
+   Crie um script para calcular os valores passados e a escolha para
+   SOMA SUBITRAÇÃO MULTIPLICAÇÃO DIVISÃO com as condiçoes SE ou Se Não
+*/
 
  function acaoBotao() {
     var valor01, valor02, resultado,operacao

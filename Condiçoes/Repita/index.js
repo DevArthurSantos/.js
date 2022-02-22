@@ -1,14 +1,6 @@
-/*Seção de Comandos, procedimento, funções, operadores, etc... 
-    repita
-            escreva("digite o primeiro valor: ")
-            leia(valor01)
-            escreva("digite o segundo valor:")
-            leia(valor02)
-            escreval("resultado: ", valor01 + valor02)
-            escreval(" deseja sair? s/n")
-            leia(sairloop)
-    ate sairloop <> "n"
-  */
+/*
+    Crie um script que enetra em um lup ate o usuario escolher para sair.
+*/
  
     function acaoBotao(){ 
        var sairloop, valor01, valor02

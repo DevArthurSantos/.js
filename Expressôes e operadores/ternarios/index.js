@@ -5,16 +5,15 @@
 */
 
 // condição ? valor1 : valor2
-let pao = true
-let queijo = false
+let pao = true;
+let queijo = false;
 
-const queroOsDois = pao && queijo ? `cafe top` : `cafe ruim`
-console.log(queroOsDois)
+const queroOsDois = pao && queijo ? `cafe top` : `cafe ruim`;
+console.log(queroOsDois);
 
-const tantoFaz = pao || queijo ? `cafe top` : `cafe top`
-console.log(tantoFaz)
+const tantoFaz = pao || queijo ? `cafe top` : `cafe top`;
+console.log(tantoFaz);
 
-
-let idade = 18
-const verificarIdade = idade >= 18 ? `Maior de idade` : `Menor de idade`
-console.log(verificarIdade)
+let idade = 18;
+const verificarIdade = idade >= 18 ? `Maior de idade` : `Menor de idade`;
+console.log(verificarIdade);

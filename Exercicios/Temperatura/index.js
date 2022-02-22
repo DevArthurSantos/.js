@@ -12,8 +12,7 @@ function trasforme(temperatura) {
 
   if (!temC && !temF) {
     throw new Error("Grau não identificado");
-  }
-  if (temC == true) {
+  } else if (temC == true) {
     updateTemperatura =
       (Number(temperatura.toUpperCase().replace("ºC", "")) * 9) / 5 + 32;
     console.log(updateTemperatura + "ºF");
@@ -25,7 +24,7 @@ function trasforme(temperatura) {
 }
 
 try {
-  trasforme("122ºF");
+  trasforme("122º");
 } catch (error) {
   console.log(error.message);
 }
